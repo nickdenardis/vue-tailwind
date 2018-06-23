@@ -1,0 +1,19 @@
+{
+  "name": "vuewind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vuepress build",
+    "clear": "rm -rf ./.vuepress/dist",
+    "open": "browser-sync start --server '.vuepress/dist' --files='**/*'"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.0.1",
+    "autoprefixer": "^8.6.3",
+    "tailwindcss": "^0.6.0"
+  }
+}
