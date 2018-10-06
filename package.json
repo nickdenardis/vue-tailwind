@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nickdenardis/vue-tailwind.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "vuepress build",
@@ -15,6 +19,6 @@
     "@fullhuman/postcss-purgecss": "^1.0.1",
     "autoprefixer": "^8.6.3",
     "tailwindcss": "^0.6.0",
-    "vuepress": "^0.10.2"
+    "vuepress": "^0.14.4"
   }
 }
